@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <!-- Google Font-->
+    <link 
+    href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,700;1,400;1,500&display=swap" 
+    rel="stylesheet"/>
+
+    <!-- Favicon -->
+
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+
+    <!-- Glidejs carousel -->
+
+    <link rel="stylesheet" href="../glide-3.4.1/dist/css/glide.core.min.css"/>
+
+    <link rel="stylesheet" href="../glide-3.4.1/dist/css/glide.theme.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide"/>
+
+
+    <!-- Animate on Scroll -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+
+
+    <!-- StyleSheet -->
+
+    <link rel="stylesheet" href="./css/style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+    <title>Phone Shop</title>
+</head>
+
+<body>
+
+     <!-- HEADER -->
+
+     <header class="header" id="header">
+
+        <!-- Navigation -->
+        <div class="navigation">
+            <div class="container">
+                <nav class="nav">
+                  <div class="nav__hamburger">
+                   <span><i class="fa fa-bars"></i></span>
+                  </div> 
+                     <div class="nav__logo">
+                      <a href="/" class="scroll-link"> PHONE  </a>
+                  </div>
+                  <div class="nav__menu">
+                     <div class="menu__top">
+                         <span class="nav_category">PHONE</span>
+                         <a href="#" class="close__toggle"></a>
+                         <span><i class="fa fa-times"></i></span>
+                     </div> 
+
+                     <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#header" class="nav__link scroll-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                          <a href="#category" class="nav__link scroll-link">Category</a>
+                      </li>
+                      <li class="nav__item">
+                          <a href="#news" class="nav__link scroll-link">Blog</a>
+                      </li>
+                      <li class="nav__item">
+                          <a href="#contact" class="nav__link scroll-link">Contact</a>
+                      </li>
+                    </ul>
+
+                  </div>
+
+                  <div class="nav__icons">
+                      <a href="#" class="icon__item">
+                        <span><i class="fa fa-user fa-lg"></i></span>
+                      </a>
+
+                      <a href="#" class="icon__item">
+                        <span><i class="fa fa-search fa-lg"></i></span>
+                      </a>
+
+                      <a href="#" class="icon__item">
+                        <span><i class="fa fa-shopping-basket fa-lg"></i></span>
+                        <span id="cart__total">0</span>
+                      </a>
+
+                  </div>
+
+                </nav>
+            </div>
+        </div>
+        <!-- Navigation -->
+
+        <!-- HERO AREA -->
+        <div class="hero">
+            <div class="glide" id="glide_1">
+                <div class="glide__track" data-glide-el="track">
+                  <ul class="glide__slides">
+                    <li class="glide__slide">
+                        <div class="hero__center">
+                            <div class="hero__left">
+                                <span> New Inspiration 2020</span>
+                                <h1>PHONE MADE FOR YOU!</h1>
+                                <p>Trending from mobile and headphone style collection</p>
+                                <a href="#"><button class="hero__btn">SHOP NOW</button></a>
+                            </div>
+                            <div class="hero__right">
+                                <div class="hero__img-container">
+                                    <img src="./img/banner_01.png" alt="|" class="banner_01"/>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="glide__slide">
+                        <div class="hero__center">
+                            <div class="hero__left">
+                                <span> New Inspiration 2020</span>
+                                <h1>PHONE MADE FOR YOU!</h1>
+                                <p>Trending from mobile and headphone style collection</p>
+                                <a href="#"><button class="hero__btn">SHOP NOW</button></a>
+                            </div>
+                            <div class="hero__right">
+                                <div class="hero__img-container">
+                                    <img src="./img/banner_02.png" alt="|" class="banner_02"/>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                  </ul>
+                    <div class="glide__bullets" data-glide-el="controls[nav]">
+                      <button class="glide__bullet" data-glide-dir="=0"></button>
+                      <button class="glide__bullet" data-glide-dir="=1"></button>
+                    </div>
+                    
+                    <div class="glide__arrows" data-glide-el="controls">
+                        <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                            <span><i class="fa fa-arrow-left fa-5x"></i></span>
+                        </button>
+                        <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                          <span><i class="fa fa-arrow-right fa-5x"></i></span>
+                        </button>
+                     </div>
+
+                </div>
+              </div>
+        </div>
+         <!-- HERO AREA -->
+
+     </header>
+     <!-- HEADER -->
+
+     <!--Main-->
+     <main id="main">
+         <!--Colletion-->
+         <section class="section collection" id="colletion">
+             <div class="container">
+                 <div class="collection__container">
+                     <div class="collection__box">
+                         <div class="img__container">
+                             <img src="./img/collection_02.png" class="collection_02">
+                         </div>
+                         <div class="collection__content">
+                             <div class="collection__data">
+                                 <span>New Colors Introduced</span>
+                                 <h1>HEAD PHONE</h1>
+                                 <a href="#">SHOP NOW</a>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="collection__box">
+                        <div class="img__container">
+                            <img src="./img/collection_01.png" class="collection_01">
+                        </div>
+                        <div class="collection__content">
+                            <div class="collection__data">
+                                <span>Phone Device Preset</span>
+                                <h1>SMARTPHONE</h1>
+                                <a href="#">SHOP NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+             </div>
+
+         </section>
+         <!--Colletion-->
+         <!--Latest Products-->
+         <section class="section latest__products" id="latest">
+             <div class="title__container">
+                 <div class="section__title active" data-id="latest products">
+                     <span class="dot"></span>
+                     <h1 class="primary__title">Latest Products</h1>
+                 </div>
+             </div>
+
+             <div class="container">
+                 <div class="glide" id="glide_2">
+                     <div class="glide__track" data-glide-el="track">
+                         <ul class="glide__slide latest-center">
+                             <li class="glide__slide">
+                                 <div class="product">
+                                     <div class="product__header">
+                                         <img src="./img/products/iPhone/iphone6.jpeg" alt=""/>
+                                     </div>
+                                     <div class="product__footer">
+                                         <h3>Apple Iphone 11</h3>
+                                         <div class="rating">
+                                            <svg>
+                                                <use xlink:href="./img/sprite.svg#icon-star"></use>
+                                              </svg>
+                                         </div>
+                                         <div class="product__price">
+                                             <h4>$750</h4>
+                                             <a href="#"><button type="button" class="product__btn">
+                                             Add To Cart    
+                                             </button></a>
+                                         </div>
+                                         <lu>
+                                                 <a href="#">
+                                                    <span><i class="fa fa-eye fa-2x"></i></span>
+                                                 </a>
+                                                 <a href="#">
+                                                    <span><i class="fa fa-heart fa-2x"></i></span>
+                                                 </a>
+                                                 <a href="#">
+                                                    <span><i class="fa fa-undo fa-2x"></i></span>
+                                                 </a>
+                                         </lu>
+                                     </div>
+                                 </div>
+                             </li>
+                         </ul>
+                     </div>
+                 </div>
+             </div>
+         </section>
+
+         <!--Latest Products-->
+     </main>
+     <!--Main-->
+
+    <!-- HERO AREA -->
+    <!-- HERO AREA -->
+                      
+    <!-- GLIDEJS -->
+
+    <script src="../glide-3.4.1/dist/glide.min.js"></script>
+
+    <!-- GLIDEJS -->
+
+    <!-- ADS -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- ADS -->
+
+    <!--script -->
+
+    <script src="./js/index.js"></script>
+    <script src="./js/products.js"></script>
+    <script src="./js/slider.js"></script>
+
+    <!--script -->
+</body>
+</html>
